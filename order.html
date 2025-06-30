@@ -1,8 +1,21 @@
 <!DOCTYPE html><html><head><title>Buy/Order</title><link rel='stylesheet' href='style.css'></head><body><h1>Place an Order</h1><p>Order or request custom jewelry items here.</p></body></html>
+ <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+      localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    }
+
+    window.onload = function () {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    };
+  </script>
 <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="about.html">About</a></li>https://github.com/Fiezeey/Fiezeey/edit/Main/order.html
       <li><a href="services.html">Services</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="contact.html">Contact</a></li>
