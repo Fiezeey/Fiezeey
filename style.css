@@ -20,14 +20,14 @@ nav ul li {
   display: inline;
 }
 nav ul li a {
-  text-decoration: none;
+  text-decoration: italic;
   color: #000;
 }
 button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background: goldenrod;
-  border: none;
+  border: black;
   color: white;
   cursor: pointer;
 }
